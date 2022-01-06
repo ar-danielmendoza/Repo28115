@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../asserts/favicon.ico" type="image/x-icon">
+    <title>Contactos - Centro de Telemática - UNL</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <img class="header__logo" src="../asserts/unl-telematica.png" alt="Logo Centro de Telemática">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"> <a href="../index.html">Inicio</a></li>
+                <li class="header__item"> <a href="./institucional.html">Institucional</a></li>
+                <li class="header__item"> <a href="./uacademicas.html">Unidades Académicas</a></li>
+                <li class="header__item"> <a href="./servicios.html">Servicios</a> </li>
+                <li class="header__item"> <a href="./instructivos.html">Instructivos</a> </li>
+                <li class="header__item"> <a href="#">Contactos </a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section">
+            <form class="main_form" action="#" method="get">
+                <fieldset class="fieldset">
+                    <legend> Información Personal</legend>
+                    <div class="main_campo">
+                        <label class="main__label" for="nombre"> Nombre: </label>
+                        <input class="main__label" type="text" name="nombre" id="= nombre" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="main_campo">
+                        <label class="main__label" for="nombre"> Apellido: </label>
+                        <input class="main__label"type="text" name="apellido" id="= apellido" placeholder="Ingrese su apellido">
+                    </div>
+                    <div class="main_campo">
+                        <label class="main__label" for="email">Correo electrónico: </label>
+                        <input class="main__label"type="email" name="email" id="email" placeholder="Ingrese un e-mail">
+                    </div>
+                    <div  class="main_campo">
+                        <label class="main__label" for="agrupacion"> Agrupación: </label>
+                        <select class="main__label"name="agrupacion" id="agrupacion">
+                            <option value="Docente"> Docente </option>
+                            <option value="NoDocente"> No Docente</option>
+                            <option value="Contratado"> Contratado</option>
+                            <option value="Becario"> Becario </option>
+                            <option value="Alumno"> Alumno </option>
+                        </select>
+                    </div>
+                    <div class="main_campo">
+                        <label class="main__label" for="comentario"> Comentario:</label>
+                        <textarea class="main__label"name="comentario" id="comentario" cols="30" rows="10"
+                            placeholder="Ingrese su comentario o consulta"></textarea>
+                    </div>
+                    <div class="main_campo">
+                        <button class="main__label"type="submit"> Enviar Formulario</button>
+                        <button class="main__label"type="reset"> Limpiar Formulario </button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <section>
+        <!-- Completar con la información secundaria - Contacto de las dependencia externas del Centro de telemática. -->
+    </section>
+    <footer class="footer">
+        <p class="footer__parrafo"><strong>Centro de Telemática.</strong></p>
+        <p class="footer__parrafo">Pasaje Martinez 2652 (SANTA FE)</p>
+        <p class="footer__parrafo">Horario de atención: lunes a viernes de 8h. a 20h.</p>
+        <p class="footer__parrafo">Telefóno: +54 342 455-4245</p>
+        <p class="footer__parrafo">E-mail: cetul@unl.edu.ar</p>
+    </footer>
+</body>
+
+</html>
