@@ -13,6 +13,7 @@
                          "main main main" 
                          "footer footer footer";
     background-color: lightblue;
+    background-image: linear-gradient(lightblue, blue);
     padding: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } /* GRID para el body*/
