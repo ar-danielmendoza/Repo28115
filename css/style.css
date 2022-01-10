@@ -132,7 +132,7 @@ Institucional
 /******                 Unidades Academicas                     ******/
 .main__galeria{
     display: grid;
-    grid-template-columns: repeat(auto-fill , minmax(300px,2fr));
+    grid-template-columns: repeat(auto-fill , minmax(350px,2fr));
     grid-template-rows: 250px;
     grid-gap: 10px;
     padding: 2rem;
@@ -189,23 +189,50 @@ Institucional
 .esunl{
     background-color: #e4c4c4;
 }
-.fiq{
-    background-color: #e61e00;
+.cure{
+    background-color: #a2b5be;
+}
+.cuga{
+    background-color: #009CB4;
+}
+.cura{
+    background-color: #039186;
 }
 .fadu{
-    background-color: #e61e00;
-    : #f9b700;
+    background-color: #F9B700;
 }
-.fcjs{
-    background-color: #e61e00;
-    : #9f052b;
+.fbcb{
+    background-color: #009F2F;
+}
+.fca{
+    background-color: #7db713;
 }
 .fce{
-    background-color: #e61e00;
-    : #013273;
+    background-color: #00336B;
+}
+.fcjs{
+    background-color: #9f052b;
 }
 .fcm{
     background-color: #757575;
+}
+.fcv{
+    background-color: #72097C;
+}
+.fhuc{
+    background-color: #EE7900;
+}
+.fiq{
+    background-color: #e61e00;
+}
+.fich{
+    background-color: #006CB8;
+}
+.ess{
+    background-color: #006F24;
+}
+.ism{
+    background-color: #F1A547;
 }
 
 
