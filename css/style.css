@@ -13,7 +13,7 @@
                          "main main main" 
                          "footer footer footer";
     background-color: lightblue;
-    background-image: linear-gradient(lightblue, blue);
+    background-image: linear-gradient(lightblue, #019CB3);
     padding: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 } /* GRID para el body*/
@@ -93,6 +93,7 @@ main__parrrafo{
 }
 /* FIN MAIN */
 
+
 /* INICIO FOOTER */
 .footer{
     grid-area: footer;
@@ -106,6 +107,7 @@ main__parrrafo{
 
 }
 /* FIN FOOTER */
+
 
 
 
@@ -127,13 +129,18 @@ Institucional
     padding: 10px;
 }
 
-/*
-Servicios
-*/
+/******                 Unidades Academicas                     ******/
+.main__galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px,2fr));
+    grid-template-rows: 250px;
+    grid-gap: 10px;
+    padding: 2rem;
+    grid-auto-flow: dense;
+}
 
-/*
-Instructivos
-*/
+/******                      Instructivos            *******/
+
 .section__instructivo{
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(560px,1fr));
@@ -145,7 +152,8 @@ Instructivos
 }
 .main__parrafo{
 }
-/*                           contactos   */
+
+/******                         contactos               ******/
 .section{
 }
 .main__form{
@@ -165,6 +173,41 @@ Instructivos
     margin: 5px;
     padding: 5px;
 }
+/*                      Guia de colores por Unidad Academica            */
+.junl{
+    background-color: #D50B2F;
+}
+.epunl{
+    background-color: #80b1e2;
+}
+.eis{
+    background-color: #D50B2F;
+}
+.eagg{
+    background-color: #6F613D;
+}
+.esunl{
+    background-color: #e4c4c4;
+}
+.fiq{
+    background-color: #e61e00;
+}
+.fadu{
+    background-color: #e61e00;
+    : #f9b700;
+}
+.fcjs{
+    background-color: #e61e00;
+    : #9f052b;
+}
+.fce{
+    background-color: #e61e00;
+    : #013273;
+}
+.fcm{
+    background-color: #757575;
+}
+
 
 /*       MEDIAS QUERIES */
 @media screen and (max-width: 425px) {
